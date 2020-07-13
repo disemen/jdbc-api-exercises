@@ -19,7 +19,7 @@ public interface ProductDao {
     /**
      * Retrieves and returns all producrs from the database
      *
-     * @return list of all products
+     * @return list of all product
      */
     List<Product> findAll();
 

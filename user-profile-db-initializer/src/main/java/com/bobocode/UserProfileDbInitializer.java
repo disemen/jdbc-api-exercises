@@ -12,7 +12,7 @@ import java.sql.Statement;
  * information about users and their profiles.
  */
 public class UserProfileDbInitializer {
-    private final static String TABLE_INITIALIZATION_SQL_FILE = "db/migration/table_initialization.sql"; // todo: see the file
+    private final static String TABLE_INITIALIZATION_SQL_FILE = "db/migration/table_initialization.sql";
     private DataSource dataSource;
 
     public UserProfileDbInitializer(DataSource dataSource) {
